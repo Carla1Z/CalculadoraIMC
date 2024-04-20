@@ -180,7 +180,7 @@
                                         NeedleEndWidth="15"
                                         NeedleLength="0.6"
                                         NeedleStartWidth="2"
-                                        Value="25" />
+                                        Value="{Binding IMC.Result}" />
                                 </gauge:RadialAxis.Pointers>
 
                             </gauge:RadialAxis>
