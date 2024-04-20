@@ -51,7 +51,41 @@
                 </VerticalStackLayout>
             </Frame>
             <!--#endregion-->
-
+            <!--#region Width-->
+            <Frame>
+                <VerticalStackLayout>
+                    <Label
+                        FontSize="Large"
+                        HorizontalOptions="Center"
+                        Text="Peso (kg)"
+                        TextColor="Gray" />
+                    <gauge:SfLinearGauge
+                        Margin="0,15,0,0"
+                        Interval="50"
+                        Maximum="150"
+                        Minimum="40">
+                        <gauge:SfLinearGauge.MarkerPointers>
+                            <gauge:LinearContentPointer
+                                x:Name="WeightPointer"
+                                IsInteractive="True"
+                                Position="Cross"
+                                Value="50">
+                                <gauge:LinearContentPointer.Content>
+                                    <Grid HeightRequest="25" WidthRequest="50">
+                                        <RoundRectangle CornerRadius="5" Fill="SteelBlue" />
+                                        <Label
+                                            HorizontalOptions="Center"
+                                            Text="{Binding Source={x:Reference WeightPointer}, Path=Value, StringFormat='{0:0}'}"
+                                            TextColor="White"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </gauge:LinearContentPointer.Content>
+                            </gauge:LinearContentPointer>
+                        </gauge:SfLinearGauge.MarkerPointers>
+                    </gauge:SfLinearGauge>
+                </VerticalStackLayout>
+            </Frame>
+            <!--#endregion-->
 
         </VerticalStackLayout>
     </ScrollView>
