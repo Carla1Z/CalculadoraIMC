@@ -49,11 +49,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="MVVM\Models\" />
-	  <Folder Include="MVVM\ViewModels\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <PackageReference Include="Syncfusion.Maui.Gauges" Version="20.1.58-preview" />
 	</ItemGroup>
 

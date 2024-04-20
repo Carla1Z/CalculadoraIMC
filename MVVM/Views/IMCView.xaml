@@ -35,7 +35,7 @@
                                 x:Name="HeightPointer"
                                 IsInteractive="True"
                                 Position="Cross"
-                                Value="50">
+                                Value="{Binding IMC.Height}">
                                 <gauge:LinearContentPointer.Content>
                                     <Grid HeightRequest="25" WidthRequest="50">
                                         <RoundRectangle CornerRadius="5" Fill="SteelBlue" />
@@ -71,7 +71,7 @@
                                 x:Name="WeightPointer"
                                 IsInteractive="True"
                                 Position="Cross"
-                                Value="50">
+                                Value="{Binding IMC.Weight}">
                                 <gauge:LinearContentPointer.Content>
                                     <Grid HeightRequest="25" WidthRequest="50">
                                         <RoundRectangle CornerRadius="5" Fill="SteelBlue" />
