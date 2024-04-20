@@ -54,6 +54,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Syncfusion.Maui.Gauges" Version="20.1.58-preview" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="MVVM\Views\IMCView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
