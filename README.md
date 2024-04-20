@@ -19,8 +19,7 @@ Para utilizar la calculadora de IMC, simplemente sigue estos pasos:
 
 ## 📸 Capturas de Pantalla
 
-- [Imagen de la pantalla principal](URL-a-la-imagen-de-la-pantalla-principal)
-- [Imagen de los resultados del IMC](URL-a-la-imagen-de-los-resultados-del-IMC)
+<a href="https://ibb.co/DDdnrjh"><img src="https://i.ibb.co/HDZQh96/Captura-de-pantalla-2024-04-20-174357.png" alt="Captura-de-pantalla-2024-04-20-174357" border="0"></a>
 
 ## 📥 Instalación
 
