@@ -9,7 +9,7 @@ namespace CalculadoraIMC.MVVM.Models
     public class IMC
     { 
         public float Height { get; set; }
-        public float Width { get; set; }
+        public float Weight { get; set; }
         public float Result { get; set; }
 
     }
